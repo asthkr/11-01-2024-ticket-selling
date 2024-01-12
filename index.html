@@ -2,519 +2,485 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage - MY</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
         integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        crossorigin="anonymous"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
-
 <body>
-    <div class="sidebar-container ">
-        <div class="sidebar ">
-            <div class="searchbar">
-                <input type="search" placeholder="Search">
-                <!-- <i class="fa-solid  fa-search"></i> -->
-            </div>
-
-            <div class="nav my-auto">
-                <ul>
-                    <li class="nav-link"><a href="#">Home</a></li>
-                    <li class="nav-link"><a href="#">about</a></li>
-                    <li class="nav-link"><a href="#">Contact</a></li>
-                    <li class="nav-link"><a href="#">more</a></li>
-                </ul>
-            </div>
-            <div class="d-flex flex-column gap-3 mt-auto">
-                <button class="register">
-                    <i class="fa-solid fa-user"></i>
-                    Register/Login
-                </butt>
-                <button class="cart">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    Shopping cart
-                </button>
-            </div>
-
-        </div>
-    </div>
     <header class="header">
         <div class="container-lg">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="logo-wrapper">
-                    <div class="img-hldr">
-                        <img src="images/logo.png" alt="Company_Logo">
-                    </div>
-                </div>
-                <div class="side-navbar">
-                    <div class="side-icon register">
-                        <i class="fa-solid  fa-user-alt"></i>
-                    </div>
-                    <div class="side-icon cart">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                    <div class="sidenav-toggler">
-                        <div class="btn-box">
-                            <span id="barone" class="bar"></span>
-                            <span id="bartwo" class="bar"></span>
-                        </div>
-                    </div>
-                </div>
+            <div class="nav-bar">
+                <ul class="nav gap-2 justify-content-center">
+                    <li><a href="#">Speakers</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
             </div>
         </div>
     </header>
-    <section class="herobanner">
+    <section class="hero-banner">
         <div class="container-fluid p-0">
-            <div class="slick-slider js-slick">
-                <div class="slide">
-                    <div class="img-holder">
-                        <div class="bg-img">
-                            <img src="images/bg1.jpg" alt="">
-                        </div>
-                        <div class="product-img">
-                            <img src="images/2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="text-box">
-                        <div class="tag-line">Collection</div>
-                        <h2>Heading-1<br>
-                            Hot collection
-                        </h2>
-                        <button class="bnr-btn">
-                            Shop Now
-                        </button>
-                    </div>
+            <div class="hero-wrapper">
+                <img src="images/dl.beatsnoop.com-high-2eff406ea7aedd165b.jpg" alt="">
+            </div>
+            <div class="content-box">
+                <div class="img-wrapper">
+                    <img src="images/Asset-1-1.png" alt="">
                 </div>
-                <div class="slide">
-                    <div class="img-holder">
-                        <div class="bg-img">
-                            <img src="images/plain-green.jpg" alt="">
-                        </div>
-                        <div class="product-img">
-                            <img src="images/processed-whi.png" alt="">
+                <div class="txt-box">
+                    <p>2024 dates & location to be announced soon.
+                    </p>
+                    <span>Jan. 15-16, 2024/San Antonio, TX</span>
+                    <button class="hero-btn">Get Tickets</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sponsors">
+        <div class="container-fluid">
+            <div class="slider">
+                <div class="owl-carousel custom-carousel owl-theme">
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/logo_full@2x.png" alt="Logo"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/carrot-logo.png" alt="Logo"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/DealMachine-Text-Logo-Blue-CMYK-1.png" alt="Logo">
                         </div>
                     </div>
-                    <div class="text-box">
-                        <div class="tag-line">Collection</div>
-                        <h2>Heading-2 <br>
-                            new collection
-                        </h2>
-                        <button class="bnr-btn">
-                            Shop Now
-                        </button>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/Hive-Mind-pdf.jpg" alt="Logo"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/LeadZolo-Logo-Transparent-1.png" alt="Logo"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/MicrosoftTeams-image-2-1.png" alt="Logo"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/MicrosoftTeams-image-29.jpg" alt="Logo"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/Voyage.jpg" alt="Logo"></div>
+                    </div>
+                    <div class="item">
+                        <div class="img-wrapper"><img src="images/Screenshot-2023-06-05-at-1.09.39-PM.png" alt="Logo">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="shop">
-        <div class="container-fluid ">
+    <section class="article">
+        <div class="container-fluid">
             <div class="heading">
-                <h3>Featured Products</h3>
+                <h1>Why Attend?</h1>
             </div>
-            <div class="products">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card info-card">
-                            <div class="card-content">
-                                <h4> New Arrivals</h4>
-                            </div>
-                        </div>
+            <div class="tag-line">
+                <p>Wholesaling LIVE Is The Only Event Where You
+                    Learn, Earn, and Make REAL Money!</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content-col">
+                        <ol style="--length: 6" role="list">
+                            <li style="--i: 1">
+                                <h3>Hot & Sizzling Leads Provided</h3>
+                                <p>Get exclusive access to leads actively seeking offers, supercharging your chances of
+                                    success.
+                                </p>
+                            </li>
+                            <li style="--i: 3">
+                                <h3>Real-Life Roleplaying Scenarios</h3>
+                                <p>Hone your skills through interactive practice sessions, conquering objections, and
+                                    sealing
+                                    deals with confidence.</p>
+                            </li>
+                            <li style="--i: 5">
+                                <h3>Unwavering Team Support</h3>
+                                <p>Our dedicated team will stand by your side, ensuring no obstacle can stand in your
+                                    way.</p>
+                            </li>
+                        </ol>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="images/4.jpg" alt="">
-                                </div>
-                                <div class="card-hover-data">
+                </div>
+                <div class="col-md-6">
+                    <div class="content-col">
+                        <ol style="--length: 6" role="list">
 
-                                    <div class="prod-icons">
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-heart "></i>
-                                        </div>
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-cart-plus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-details">
-                                    <h6> Product Name</h6>
-                                    <span class="price">$46.00</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="images/5.jpg" alt="">
-                                </div>
-                                <div class="card-hover-data">
-
-                                    <div class="prod-icons">
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-heart "></i>
-                                        </div>
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-cart-plus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-details">
-                                    <h6> Product Name</h6>
-                                    <span class="price">$46.00</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="images/1.jpg" alt="">
-                                </div>
-                                <div class="card-hover-data">
-
-                                    <div class="prod-icons">
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-heart "></i>
-                                        </div>
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-cart-plus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-details">
-                                    <h6> Product Name</h6>
-                                    <span class="price">$46.00</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="images/A.jpg" alt="">
-                                </div>
-                                <div class="card-hover-data">
-
-                                    <div class="prod-icons">
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-heart "></i>
-                                        </div>
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-cart-plus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-details">
-                                    <h6> Product Name</h6>
-                                    <span class="price">$46.00</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="card-img">
-                                    <img src="images/B.jpg" alt="">
-                                </div>
-                                <div class="card-hover-data">
-
-                                    <div class="prod-icons">
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-heart "></i>
-                                        </div>
-                                        <div class="icon-cir">
-                                            <i class="fa-solid fa-cart-plus"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-details">
-                                    <h6> Product Name</h6>
-                                    <span class="price">$46.00</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card info-card">
-                            <div class="card-content">
-                                <h4 class="border-0"> View All <span class="fa-solid fa-chevron-right"></span></h4>
-                            </div>
-                        </div>
+                            <li style="--i: 2">
+                                <h3>Explosive Converting Scripts Provided</h3>
+                                <p>Arm yourself with the most potent scripts proven to work relentlessly, driving up
+                                    your
+                                    conversions like never before.</p>
+                            </li>
+                            <li style="--i: 4">
+                                <h3>Revolutionary Systems for Unstoppable Results</h3>
+                                <p>Tap into the powerhouse systems generating contracts on autopilot, month after month.
+                                </p>
+                            </li>
+                            <li style="--i: 6">
+                                <h3>Subject To</h3>
+                                <p> We show you where to find these deals and how to lock them up without any heavy
+                                    lifting!</p>
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="minibanner">
+    <section class="blog">
         <div class="container-lg">
-            <div class="banner-wrapper ">
-                <div class="row align-items-center ">
-                    <div class="col-md-7">
-                        <div class="img-wrap">
-                            <img src="images/FEATHERFLAG.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="text-wrap mt-md-0 mt-3">
-                            <h3 class="mb-3  mx-auto  ms-md-0">Blog Design Inspiration</h3>
-                            <p class=" text-md-start text-center">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <button class="cus-btn mt-3 mx-auto  ms-md-0">
-                                View more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section class="review">
-        <div class="container-lg">
-            <div class="sec-head">
-                <h2>Customer Testimonials </h2>
-                <p>Read what our customers have to say about out products.</p>
-            </div>
-            <div class="sec-content slide-btn ">
-
-                <div class="review-box ">
-
-
-                    <div class="username">
-                        <div class="d-flex gap-4">
-                            <div class="dp-img">
-                                <span class="circle">
-                                    <i class="fa-solid fa-user-alt"></i>
-                                </span>
-                            </div>
-                        <div class="d-flex flex-column-reverse ">
-                            <h5 class="m-0">Good Shape </h5>
-                            <h6 class="m-0 ">Username</h6>
-                        </div>
-</div>
-                        <div class="d-flex flex-column align-items-end">
-                            <p class="m-0">1 months ago</p>
-
-                            <div class="stars-flex"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
-                        </div>
-
-                    </div>
-                    <div class="users-comment">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                            fringilla sempe elementum in nisi tristique aliquam.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="review-box ">
-
-
-                    <div class="username">
-                        <div class="d-flex gap-4">
-                            <div class="dp-img">
-                                <span class="circle">
-                                    <i class="fa-solid fa-user-alt"></i>
-                                </span>
-                            </div>
-                        <div class="d-flex flex-column-reverse ">
-                            <h5 class="m-0"> Full satisfaction</h5>
-                            <h6 class="m-0 ">Anonymous</h6>
-                        </div>
-</div>
-                        <div class="d-flex flex-column align-items-end">
-                            <p class="m-0">3 months ago</p>
-
-                            <div class="stars-flex"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
-                        </div>
-
-                    </div>
-                    <div class="users-comment">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                            fringilla sempe elementum in nisi tristique aliquam.
-                            fringilla sempe elementum in nisi tristique aliquam.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="review-box ">
-
-
-                    <div class="username">
-                        <div class="d-flex gap-4">
-                            <div class="dp-img">
-                                <span class="circle">
-                                    <i class="fa-solid fa-user-alt"></i>
-                                </span>
-                            </div>
-                        <div class="d-flex flex-column-reverse ">
-                            <h5 class="m-0">Good Shape Full satisfaction</h5>
-                            <h6 class="m-0 ">Anonymous</h6>
-                        </div>
-</div>
-                        <div class="d-flex flex-column align-items-end">
-                            <p class="m-0">4 months ago</p>
-
-                            <div class="stars-flex"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
-                        </div>
-
-                    </div>
-                    <div class="users-comment">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                            fringilla sempe elementum in nisi tristique aliquam.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="subscribe">
-        <div class="container-fluid p-0">
-            <div class="img-bg"> </div>
-            <div id="sec-content" class="d-flex flex-column align-items-center justify-content-center">
-                <div class="text-box">
-                    <h3>Subscribe to our Newsletter</h3>
-                </div>
-                <div class="input-box">
-                    <input class="inputemail" type="email" placeholder="Email Address">
-                    <input class="inputbtn" type="button" value="Subscribe">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="footer">
-        <div class="container-lg">
-            <div class="row justify-content-between">
-                <div class="col-md-2">
-                    <div class="logo-holder d-md-block d-none">
-                        <img src="images/logo text.JPEG" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="menu-head">Useful Links</div>
-                    <ul class="link-list">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Sign in</li>
-                        <li>FAQ</li>
-                        <li>Contact</li>
-
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <div class="menu-head">Help</div>
-                    <ul class="link-list">
-
-                        <li>Term & Conditions</li>
-                        <li>Career</li>
-                        <li>Feedback</li>
-                        <li>Report</li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <div class="menu-head">Social</div>
-                    <ul class="link-list">
-
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Whatsapp</li>
-                        <li>LinkedIn</li>
-                    </ul>
-                </div>
+            <div class="row align-items-center">
                 <div class="col-12">
-<div class="bottom-info">
-    <div class="d-flex flex-column flex-md-row justify-content-between">
-       <div class="otherlinks justify-content-md-start justify-content-between">
-        <span>     Privacy Policy </span>
-        <span>Customer Support</span>
-   </div>
-        <div class="rights text-md-start text-center">All rights reserved @Brandit</div>
-    </div>
-</div>
+                    <h3 class="heading">Don’t Miss The Most Epic Real Estate Wholesaling Event Of 2023!</h3>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-wrap"><img src="images/HBHS-118-1.jpg" alt=""></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content-wrap">
+                        <p>Join forces with the industry’s top real estate investors as they share their wisdom and
+                            guide you on your path to becoming a prosperous entrepreneur. Whether you’re just starting
+                            or are a seasoned investor, seize this unmatched opportunity to network and learn from those
+                            who have built their real estate empires.</p>
+                        <ul>
+                            <li><span>
+                                    We are changing the GAME!</span></li>
+                            <li><span>
+                                    We’re taking Wholesaling LIVE to the next level!</span></li>
+                            </span>
+                            <li><span>Secure Real Estate Wholesale Contracts and partner with HBHS LIVE!</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="pricing">
+        <div class="container-fluid p-0">
+
+            <div class="img-bg"><img src="images/14213456_5453666.jpg" alt=""></div>
+
+            <div class="content-box">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="sec-head"> <span>Cyber Week Sale</span> - Last day to secure your ticket!</h3>
+                    </div>
+                    <div class="col-4">
+                        <div class="plan">
+                            <h2>Dev</h2>
+                            <div class="price">$445</div>
+                            <ul class="features">
+                                <li><i class="fas fa-check-circle"></i> Lifetime Access Sub2 Legal Courses Presented by
+                                    Attorney Allison Tipton ($397 value)</li>
+                                <li><i class="fas fa-check-circle"></i> (2) Private Coaching Group Calls with Speaker
+                                    ($997
+                                    value)</li>
+                                <li><i class="fas fa-check-circle"></i> Elite Private Dinner with Speakers and Sponsors
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Elite Private Mastermind on Sunday</li>
+                                <li><i class="fas fa-times-circle"></i>90 day Access to Alliance ($300 value)</li>
+                                <li><i class="fas fa-times-circle"></i> Extra Day-Sunday</li>
+                                <li><i class="fas fa-times-circle"></i>
+                                    Live Training</li>
+                                <li><i class="fas fa-times-circle"></i>VIP Lounge Access </li>
+                                <li><i class="fas fa-times-circle"></i>Access to Crush It Courses Presented by Uncle
+                                    Charles
+                                    ($197 value) </li>
+                                <li><i class="fas fa-times-circle"></i> Elite Personal Gift</li>
+                            </ul>
+                            <button>Get Your Tickets</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="plan popular">
+                            <span>Most Popular</span>
+                            <h2>Pro</h2>
+                            <div class="price">$1000</div>
+                            <ul class="features">
+                                <li><i class="fas fa-check-circle"></i> Lifetime Access Sub2 Legal Courses Presented by
+                                    Attorney Allison Tipton ($397 value)</li>
+                                <li><i class="fas fa-check-circle"></i> (2) Private Coaching Group Calls with Speaker
+                                    ($997
+                                    value)</li>
+                                <li><i class="fas fa-check-circle"></i> Elite Private Dinner with Speakers and Sponsors
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Elite Private Mastermind on Sunday</li>
+                                <li><i class="fas fa-check-circle"></i>90 day Access to Alliance ($300 value)</li>
+                                <li><i class="fas fa-check-circle"></i> Extra Day-Sunday</li>
+                                <li><i class="fas fa-check-circle"></i>
+                                    Live Training</li>
+                                <li><i class="fas fa-times-circle"></i>VIP Lounge Access </li>
+                                <li><i class="fas fa-times-circle"></i>Access to Crush It Courses Presented by Uncle
+                                    Charles
+                                    ($197 value) </li>
+                                <li><i class="fas fa-times-circle"></i> Elite Personal Gift</li>
+                            </ul>
+                            <button>Get Your Tickets</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="plan">
+                            <h2>Dev</h2>
+                            <div class="price">VIP</div>
+                            <ul class="features">
+                                <li><i class="fas fa-check-circle"></i> Lifetime Access Sub2 Legal Courses Presented by
+                                    Attorney Allison Tipton ($397 value)</li>
+                                <li><i class="fas fa-check-circle"></i> (2) Private Coaching Group Calls with Speaker
+                                    ($997
+                                    value)</li>
+                                <li><i class="fas fa-check-circle"></i> Elite Private Dinner with Speakers and Sponsors
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Elite Private Mastermind on Sunday</li>
+                                <li><i class="fas fa-check-circle"></i>90 day Access to Alliance ($300 value)</li>
+                                <li><i class="fas fa-check-circle"></i> Extra Day-Sunday</li>
+                                <li><i class="fas fa-check-circle"></i>
+                                    Live Training</li>
+                                <li><i class="fas fa-check-circle"></i>VIP Lounge Access </li>
+                                <li><i class="fas fa-check-circle"></i>Access to Crush It Courses Presented by Uncle
+                                    Charles
+                                    ($197 value) </li>
+                                <li><i class="fas fa-check-circle"></i> Elite Personal Gift</li>
+                            </ul>
+                            <button>Get Your Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <section class="speaker">
+        <div class="container-fluid">
+            <div class="heading">
+                <h1>Speakers</h1>
+            </div>
+            <div class="slide-section">
+
+                <div class="owl-carousel custom-carousel owl-theme">
+                    <div class="item active"
+                        style="background-image: url(../images/young-girl-red-shirt-casting-feels-positive.jpg);">
+                        <div class="item-desc">
+                            <h3>RJ BATES III</h3>
+                            <p class="d-flex gap-4"> <span>Acquisitions</span> <span>@rjbatesiii</span></p>
+
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/man-vacation-with-big-yellow-suitcase-blue.jpg);">
+                        <div class="item-desc">
+                            <h3>Carlos Reyes
+                            </h3>
+                            <p class="d-flex gap-4"><span>Keynote
+                                </span> <span>@carlosreyes</span></p>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/smiling-young-pretty-girl-pointing-side.jpg);">
+                        <div class="item-desc">
+                            <h3>Robert Wensley
+                            </h3>
+                            <p class="d-flex gap-4"> <span>Dispositions
+                                </span><span> @robertwensley</span></p>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/young-girl-red-shirt-casting-feels-positive.jpg);">
+                        <div class="item-desc">
+                            <h3>RJ BATES III</h3>
+                            <p class="d-flex gap-4"> <span>Acquisitions</span> <span>@rjbatesiii</span></p>
+
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/man-vacation-with-big-yellow-suitcase-blue.jpg);">
+                        <div class="item-desc">
+                            <h3>Carlos Reyes
+                            </h3>
+                            <p class="d-flex gap-4"><span>Keynote
+                                </span> <span>@carlosreyes</span></p>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/smiling-young-pretty-girl-pointing-side.jpg);">
+                        <div class="item-desc">
+                            <h3>Robert Wensley
+                            </h3>
+                            <p class="d-flex gap-4"> <span>Dispositions
+                                </span><span> @robertwensley</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <h1>Confirmed VIPS</h1>
+            </div>
+            <div class="slide-section">
+
+                <div class="owl-carousel custom-carousel owl-theme">
+                    <div class="item active"
+                        style="background-image: url(../images/young-girl-red-shirt-casting-feels-positive.jpg);">
+                        <div class="item-desc">
+                            <h3>RJ BATES III</h3>
+                            <p class="d-flex gap-4"> <span>Acquisitions</span> <span>@rjbatesiii</span></p>
+
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/man-vacation-with-big-yellow-suitcase-blue.jpg);">
+                        <div class="item-desc">
+                            <h3>Carlos Reyes
+                            </h3>
+                            <p class="d-flex gap-4"><span>Keynote
+                                </span> <span>@carlosreyes</span></p>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/smiling-young-pretty-girl-pointing-side.jpg);">
+                        <div class="item-desc">
+                            <h3>Robert Wensley
+                            </h3>
+                            <p class="d-flex gap-4"> <span>Dispositions
+                                </span><span> @robertwensley</span></p>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/young-girl-red-shirt-casting-feels-positive.jpg);">
+                        <div class="item-desc">
+                            <h3>RJ BATES III</h3>
+                            <p class="d-flex gap-4"> <span>Acquisitions</span> <span>@rjbatesiii</span></p>
+
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/man-vacation-with-big-yellow-suitcase-blue.jpg);">
+                        <div class="item-desc">
+                            <h3>Carlos Reyes
+                            </h3>
+                            <p class="d-flex gap-4"><span>Keynote
+                                </span> <span>@carlosreyes</span></p>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(../images/smiling-young-pretty-girl-pointing-side.jpg);">
+                        <div class="item-desc">
+                            <h3>Robert Wensley
+                            </h3>
+                            <p class="d-flex gap-4"> <span>Dispositions
+                                </span><span> @robertwensley</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="faq">
+        <div class="container-lg">
+            <div class="main-box">
+
+                <div class="content">
+                    <aside>
+                        <div class="heading">
+                            <h1>FAQ</h1>
+                        </div>
+                        <p>We understand that you may have questions about our baked goods, so we've compiled a list of
+                            frequently asked questions to help you find the information you need.</p>
+                        <img src="images/HBHS-91.jpg" />
+                    </aside>
+                    <main>
+                        <h2>Product Information</h2>
+                        <details>
+                            <summary>Where Is The Event?</summary>
+                            <p>101 Bowie St <br>San Antonio, TX 78205</p>
+
+                        </details>
+                        <details>
+                            <summary>Can I Become A Sponsor?</summary>
+                            <p>Yes, just call (210) 972-7875. We would LOVE to put you in front of Hundreds of active
+                                Wholesalers from across the NATION. Get your word out about your services!</p>
+                        </details>
+                        <details>
+                            <summary>Do you offer delivery services?</summary>
+                            <p>Yes, we provide delivery services to make enjoying our treats even more convenient.
+                                Simply add your desired items to the cart and proceed to checkout to see if your
+                                location is eligible for delivery.</p>
+                        </details>
+                        <details>
+                            <summary>WHAT HAPPENS IF I CANNOT ATTEND?</summary>
+                            <p>There are no refunds however, you will get credit towards any HBHS ALLIANCE products.</p>
+                        </details>
+                        <details>
+                            <summary>Can I Upgrade My Ticket?</summary>
+                            <p>Absolutely! Just call us at (***) 987-7655 to upgrade.</p>
+                        </details>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="text-box">
+                        <h3> Looking For A Place To Stay?</h3>
+                        <p>We got you covered! We’ve partnered up with the best hotels to give you a discounted pricing
+                            when you
+                            attend Wholesaling Live. </p>
+                        <span>Omni Hotel discount pricing: Call 00-333-6666.</span>
+                        <div><button class="hero-btn">Get Ticket</button></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="slideshow">
+                        <div class="sliderfooter">
+                            <div class="item">
+                                <img src="images/112bf684b29507f0861d61c3193cd693_1200_80.webp" />
+                            </div>
+                            <div class="item">
+                                <img src="images/292086ba5f0cd8d50f40d8fc6c560dff_1200_80.webp" />
+                            </div>
+                            <div class="item">
+                                <img src="images/fdec351afb40642d22871d3331030174_1200_80.webp" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="f-content">
+   <a href="#">Privacy Policy & Purchase Policy</a>
+<p>ALL IN NATION, LLC © 2024 All Rights Reserved</p>
+
+</div>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
         integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 
-    <script>
-        $(".rotate").click(function () {
-            $(this).toggleClass("down");
-            $(this).parent().next(".slide-btn").slideToggle("fast");
-        });
-
-    </script>
-    <script>
-
-        $(".sidenav-toggler").click(function () {
-
-            $("#barone").toggleClass("crossnav");
-            $("#bartwo").toggleClass("mincrossnav");
-            $(".sidebar-container").toggleClass("opened-bar");
-        });
-
-
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.js-slick').slick({
-                autoplay: true,
-                autoplaySpeed: 5000,
-                dots: false,
-                draggable: false,
-                fade: true,
-                speed: 1000,
-                prevArrow: '<button class="PrevArrow"><i class="fa-solid fa-chevron-left"></i></button>',
-                nextArrow: '<button class="NextArrow"><i class="fa-solid fa-chevron-right"></i></button>',
-            });
-
-
-        });
-    </script>
 </body>
 
 </html>
